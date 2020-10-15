@@ -3,7 +3,7 @@ import { FiArrowRight, FiPlus } from 'react-icons/fi';
 import { Link, useHistory } from 'react-router-dom';
 import { Map, Marker, Popup, TileLayer } from 'react-leaflet';
 import Leaflet from 'leaflet';
-import { FiArrowLeft } from 'react-icons/fi';
+
 
 import mapMarkerImg from '../images/map-marker.svg'
 
@@ -33,7 +33,7 @@ function OrphanagesMap() {
     });
   }, []);
 
-  const { goBack } = useHistory();
+  
 
   return (
     <div id="page-map">
